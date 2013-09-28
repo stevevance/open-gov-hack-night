@@ -101,6 +101,7 @@
     <script src="js/jquery.dataTables.sorting.js"></script>
     <script src="js/jquery.address.js"></script>
     <script src="js/mustache.js"></script>
+    <script src="js/jquery.sparkline.min.js"></script>
 
     <script>
       // Set this up like this to make it easier to dev this locally -- evz
@@ -115,6 +116,7 @@
         });
         $( "#submit-message" ).fadeIn();
       }
+
 
       // AJAX form submission to civic-json-worker
       // https://github.com/open-city/civic-json-worker
@@ -157,6 +159,9 @@
               <br /><strong>Language</strong>\
               {{language}}\
             {{/language}}\
+            <span class='sparkline'>\
+            {{participation}}\
+            </span>\
           </td>\
           <td>\
             <p>{{description}}</p>\
@@ -208,6 +213,18 @@
 
           // using the template above, add the project as a new row to our table
           $("#hack-night-projects tbody").append(Mustache.render(template, json));
+          $(".sparkline").sparkline("html", {
+              chartRangeMin: 0,
+              fillColor: "#ddf2fb",
+              height: "20px",
+              lineColor: "#518fc9",
+              lineWidth: 1,
+              minSpotColor: "#0b810b",
+              maxSpotColor: "#c10202",
+              spotColor: false,
+              spotRadius: 2,
+              width: "290px"
+          });
         })
 
         // initialize datatables for sorting and searching
