@@ -16,7 +16,7 @@ image: /images/events/610-cpdb-3.jpg
 image_credit:
 date: 2024-10-15T19:00:00-05:00
 event_id: 610
-youtube_id: 
+youtube_id: 42f64RcEuhk
 agenda: https://docs.google.com/document/d/14GtScQm0l6GyqdNht0LpqG8LmcEF7i3COjNJ06PaTj8/edit#
 sponsor: Chi Hack Night Community
 asl_provided: false
