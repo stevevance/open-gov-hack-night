@@ -7,7 +7,7 @@ title: "In-person and Online: Wings Over the Windy City and the Chicago Bird Mig
 description: "“Wings Over the Windy City” is a research initiative focused on the unique challenges and opportunities migratory birds face within Chicago’s urban landscape. This three-year project at the Van Doren Lab of Migration Biology at UIUC will explore how migratory birds use high-altitude city airspace, assess the value of urban green spaces, and identify key factors driving fatal bird-building collisions."
 speakers:
   - Dr. Benjamin Van Doren, he/him, Assistant Professor with the University of Illinois at Urbana-Champaign
-  - J’orge Garcia, he/they, \#citybirds Director
+  - "J’orge Garcia, he/they, #citybirds Director"
 image: /images/events/613-wings-over-the-windy-city.jpg
 image_credit: 
 date: 2024-11-12T18:00:00-06:00
