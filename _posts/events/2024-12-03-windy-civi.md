@@ -4,10 +4,9 @@ categories:
   - events
 links: 
 title: "Online: Windy Civi"
-description: "Description coming soon"
+description: "Hear from one of Chi Hack Night's own breakout groups, Windy Civi, a tool to help you engage with the the legislation that impacts you. Additional description coming soon."
 speakers:
- - 
-image: /images/logo/logo-star-social.jpg
+image: /images/events/615-windy-civi.jpg
 image_credit:
 date: 2024-12-03T19:00:00-06:00
 event_id: 615
@@ -21,7 +20,9 @@ tags:
 published: true
 ---
 
-Description coming soon
+Hear from one of Chi Hack Night's own breakout groups, [Windy Civi](https://windycivi.com), a tool to help you engage with the the legislation that impacts you.
+
+Additional description coming soon.
 
 ---
 

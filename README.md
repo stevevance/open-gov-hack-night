@@ -19,7 +19,7 @@ Hosted by [Netlify](https://www.netlify.com/).
 Requirements:
 
 * ruby-2.6.2
-* jekyll 3.6.3
+* jekyll 4.1.1
 
 We recommend using [rvm](https://rvm.io/) to manage your Ruby versions.
 
