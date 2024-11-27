@@ -3,11 +3,11 @@ layout: remote_event
 categories:
   - events
 links: 
-title: "Online: Electrify Chicago"
-description: "Hear from one of Chi Hack Night's own breakout groups, Electrify Chicago, an independent open-source project looking to shed light onto one of the biggest sources of Chicago's CO2 emissions - buildings. Additional description coming soon"
+title: "Online: Electrify Chicago - Analyzing Chicago's Building Pollution"
+description: "Hear from one of Chi Hack Night's own breakout groups, Electrify Chicago, an independent open-source project looking to shed light onto one of the biggest sources of Chicago's CO2 emissions - buildings. In this talk, lead contributor of Electrify Chicago Viktor Köves will walk through how the project got started, what the team found in the city's data, the goals of Electrify Chicago, and how their work has helped activists put pressure on building owners to improve and on the city to enforce the energy and emissions reporting requirements."
 speakers:
- - 
-image: /images/logo/logo-star-social.jpg
+ - Viktor Köves (he/him)
+image: /images/events/617-electrify-chicago.jpg
 image_credit:
 date: 2024-12-17T19:00:00-06:00
 event_id: 617
@@ -24,7 +24,9 @@ published: true
 
 Hear from one of Chi Hack Night's own breakout groups, [Electrify Chicago](https://electrifychicago.net/), an independent open-source project looking to shed light onto one of the biggest sources of Chicago's CO2 emissions - buildings.
 
-Additional description coming soon.
+Within the city of Chicago, buildings were estimated to account for nearly 70% of emissions, and ElectrifyChicago.net looks to expose, analyze, and rank the energy use and greenhouse gas emissions of buildings by leveraging publicly available data that's on the city's data portal.
+
+In this talk, lead contributor of Electrify Chicago Viktor Köves will walk through how the project got started, what the team found in the city's data, the goals of Electrify Chicago, and how their work has helped activists put pressure on building owners to improve and on the city to enforce the energy and emissions reporting requirements.
 
 ---
 
