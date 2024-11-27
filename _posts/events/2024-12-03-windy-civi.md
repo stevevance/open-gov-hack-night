@@ -4,8 +4,10 @@ categories:
   - events
 links: 
 title: "Online: Windy Civi"
-description: "Hear from one of Chi Hack Night's own breakout groups, Windy Civi, a tool to help you engage with the the legislation that impacts you. Additional description coming soon."
+description: "Windy Civi is a Chi Hack Night breakout group with a focus to help citizens stay updated and engaged on active legislation. They recently released their open source app, with a support for Chicago, Illinois, and Federal locales. They will talk through how they hope it will help achieve the goal of having a better informed & influential citizens."
 speakers:
+ - Sartaj Chowdhury (he/him)
+ - Marissa Heffler (she/her)
 image: /images/events/615-windy-civi.jpg
 image_credit:
 date: 2024-12-03T19:00:00-06:00
@@ -22,7 +24,11 @@ published: true
 
 Hear from one of Chi Hack Night's own breakout groups, [Windy Civi](https://windycivi.com), a tool to help you engage with the the legislation that impacts you.
 
-Additional description coming soon.
+You pay attention to politics during elections. But what about between elections? What bills are active? How can you stay engaged and informed?
+
+If you are like most citizens, you find it very difficult to know what is actually happening at a local, state, and federal level of government.
+
+Windy Civi is a Chi Hack Night breakout group with a focus to help citizens stay updated and engaged on active legislation. They recently released their open source app, with a support for Chicago, Illinois, and Federal locales. They will talk through how they hope it will help achieve the goal of having a better informed & influential citizens.
 
 ---
 
