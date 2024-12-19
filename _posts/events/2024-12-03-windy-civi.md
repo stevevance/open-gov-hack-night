@@ -12,7 +12,7 @@ image: /images/events/615-windy-civi.jpg
 image_credit:
 date: 2024-12-03T19:00:00-06:00
 event_id: 615
-youtube_id:
+youtube_id: JQ_JXa_m7LA
 agenda: https://docs.google.com/document/d/14GtScQm0l6GyqdNht0LpqG8LmcEF7i3COjNJ06PaTj8/edit#
 sponsor: Chi Hack Night Community
 asl_provided: false
