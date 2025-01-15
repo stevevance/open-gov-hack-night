@@ -4,7 +4,7 @@ categories:
   - events
 links: 
 title: "Online: Landlord Mapper - The National Landlord Database Initiative"
-description: "Description coming soon."
+description: "Dylan Pederson is a former tenant organizer and founder and lead developer of the Landlord Mapper, a national landlord database initiative. He has developed a novel methodology for obtaining landlord datasets using property taxpayer records and has created a web application allowing users to investigate landlords and their properties. His work aims to help tenants research their landlords, and to promote broader transparency in rental markets. "
 speakers:
  - Dylan Pederson (he/him) 
 image: /images/events/619-landlord-mapper.jpg
