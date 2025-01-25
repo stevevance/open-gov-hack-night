@@ -45,7 +45,7 @@ Here’s a breakdown of the available seats:
    </td>
    <td>Katie O'Shea
    </td>
-   <td>Incumbent is <strong>not</strong> running
+   <td>Incumbent is running
    </td>
   </tr>
   <tr>
