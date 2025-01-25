@@ -3,7 +3,7 @@ layout: blog
 categories: 
   - blog
 title: "Chi Hack Night’s Sixth Board Election"
-description: "Details about the upcoming Board Member Election on February 18, 2024. Info about who is seeking reelection and how members can run for the board is detailed within."
+description: "Details about the upcoming Board Member Election on February 18, 2025. Info about who is seeking reelection and how members can run for the board is detailed within."
 date: 2025-01-24
 image: /images/logo/logo-star-social.jpg
 author: "CHN Election Committee"
@@ -75,21 +75,21 @@ Here’s a breakdown of the available seats:
 </table>
 
 
-To vote in this election, or to run or be appointed to a Board seat, you must be a [Member of Chi Hack Night](https://chihacknight.org/membership/application.html) as of Tuesday, February 18, 2024. If you are not sure of your membership status, you can email membership@chihacknight.org.
+To vote in this election, or to run or be appointed to a Board seat, you must be a [Member of Chi Hack Night](https://chihacknight.org/membership/application.html) as of Tuesday, February 11, 2025. If you are not sure of your membership status, you can email membership@chihacknight.org.
 
 
 ## Running for the Board
 
 Are you a Member of Chi Hack Night and interested in running for the Board? Great! Here’s what you need to do:
 
-1. **By Tuesday, February 11, 2024**
+1. **By Tuesday, February 11, 2025**
     * If unsure, confirm that you (or the person you are nominating) are a Member of Chi Hack Night by reaching out to [membership@chihacknight.org](mailto:membership@chihacknight.org)
     * [Fill out the Candidate Nomination Form](https://forms.gle/HWd4AfK7cunrkM6Z9). You can nominate yourself or someone else. Remember, though, they must be a Member of Chi Hack Night.
 
-1. **By Friday, February 15, 2024**
+1. **By Saturday, February 15, 2025**
     * [Fill out the Candidate Statement Form](https://forms.gle/uQC6mGZqWa6ydN5s5). Make your case for why you should be part of the Chi Hack Night Board. All candidate statements will be shared out publicly ahead of the election.
 
-1. **On Election Night Tuesday, February 18, 2024**
+1. **On Election Night Tuesday, February 18, 2025**
     * Be prepared with a 1–2 minute speech to deliver to Members sharing why you are seeking a position on the Board.
 
 ## What would my responsibilities as a Board member be?
@@ -104,4 +104,4 @@ You will be expected to join one or two of these committees to support Chi Hack 
 
 Have questions about the election process? Let us know at [info@chihacknight.org](mailto:info@chihacknight.org). Want to know what it’s like to serve on the Board? Send a Slack message to any of our current Board members and we’d be happy to share our experiences.
 
-Yay democracy and long live Chi Hack Night! We’ll see you online for the Board election on **Tuesday, February 18, 2024**.
+Yay democracy and long live Chi Hack Night! We’ll see you online for the Board election on **Tuesday, February 18, 2025**.
