@@ -14,7 +14,7 @@ youtube_id:
 agenda: 
 sponsor: Chi Hack Night Community
 asl_provided: false
-remote_url: https://bit.ly/chn-member-meeting-2025
+remote_url: https://chihacknight.org/blog/2025/01/24/board-member-elections
 tags: 
   - member meeting
 published: true
