@@ -6,6 +6,10 @@ links:
 title: "Online: StopWatch - Exploring Bus Service in Chicago"
 description: "The StopWatch analyzes a unique dataset of over 100 million real-time bus locations collected by Chi Hack Night Ghost Bus. Part of the 2024 Local Data Journalism Initiative, this project is a collaboration between the University of Chicago’s Mansueto Institute for Urban Innovation and the Chicago Tribune."
 speakers:
+  - 'Sarah Freishtat'
+  - 'Austin Steinhart'
+  - 'Joseph De Leon'
+  - 'Regina I. Medina'
 image: /images/events/625-stopwatch.jpg
 image_credit:
 date: 2025-03-04T19:00:00-06:00
