@@ -6,7 +6,7 @@ title: "2025 Board Election Results"
 description: "On Feb 18th, we held our sixth election for our Board of Directors. Congrats to our elected and appointed Board Members Derek Eder, Katie O'Shea, Josh Kalov, Adam Hecktman, and Vien Nguyen!"
 date: 2025-02-18
 image: /images/blog/2025-election-results.png
-author: Elections Committee - Michael Chladek, Sean Watland, Cameron Sow, Viktor Köves"
+author: Elections Committee - Michael Chladek, Sean Watland, Cameron Sow, Viktor Köves
 author_url: 
 author_image: /images/logo/logo-star-social.jpg
 author_bio: "2025 Election Commitee Member, Chi Hack Night"
