@@ -17,7 +17,6 @@ creators:
  - Graham Livingston
  - Jonathon Rogoff
  - Nurul Eusufzai
- - Ryan Shipp
 
 tags:
  - Community
