@@ -3,8 +3,8 @@ layout: icstars_event
 categories:
   - events
 links: 
-title: "In-person and Online: Chicago Neighborhoods Project"
-description: "For 20 weeks, from November 2023 through April 2024, UChicago researchers collected more than 5,500 responses from residents, identifying more than 100 unique neighborhoods across the city. Hear from the researchers that led this project and some of their findings about how we name different parts of our City."
+title: "In-person and Online: Chicago Neighborhoods Project (new location)"
+description: "Chi Hack Night will be at a new location! i.c.stars, a non-profit tech training & placement program, will be hosting us at their office at 750 N Orleans Suite 500, Chicago. Hear from the UChicago researchers that led the Chicago Neighborhood Project and some of their findings about how we name different parts of our City."
 speakers:
 image: /images/logo/logo-star-social.jpg
 image_credit: 
