@@ -15,6 +15,7 @@ author2_url:
 author2_image: 
 published: true
 featured: false
+redirect_from: /blog/2022/09/09/our-covid-19-policy.html
 ---
 
 _Updated March 11, 2024_
