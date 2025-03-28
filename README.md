@@ -14,7 +14,7 @@ Hosted by [Netlify](https://www.netlify.com/).
 * [Mustache](http://github.com/janl/mustache.js) - templating library for javascript (used on projects page)
 * [jQuery Address](http://github.com/asual/jquery-address) - for deep linking URLs on the projects page
 
-## Running locally
+## Running locally with RVM
 
 Requirements:
 
@@ -45,7 +45,7 @@ If you have Docker installed, can avoid some of the hassle of installing Jekyll 
 This is especially handy if you're on Windows machine:
 
 ```
-docker run --rm --label=jekyll --volume=%CD%:/srv/jekyll  -it -p 4000:4000 jekyll/jekyll set JEKYLL_VERSION=3.6.3 | bundle install | jekyll serve
+docker compose up
 ```
 
 ## Deploying

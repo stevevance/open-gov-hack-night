@@ -20,7 +20,7 @@ sponsor: Chi Hack Night Community
 rsvp_url: https://www.eventbrite.com/e/chi-hack-night-chicago-neighborhoods-project-tickets-1290385420529?aff=oddtdtcreator
 remote_url: 
 asl_provided: false
-tags: 
+tags: 'academic'
 published: true
 
 ---
@@ -38,6 +38,8 @@ The project collected a large sample of neighborhood map drawings using a crowds
 **This event will be in person, but you can also tune in via livestream. Doors open at 6pm. The livestream and announcements will start around 6:30pm CDT.**
 
 **In-person:** <a href='https://maps.app.goo.gl/YVGKhYDyqn3dkCit7'>i.c.stars, 750 N Orleans, Suite 500 (5th floor), Chicago IL</a>. 
+
+For more information on our in-person events, please see our [COVID Policy](/blog/2022/09/09/our-covid-19-policy.html). 
 
 **RSVP** In-person attendees should [RSVP beforehand]({{page.rsvp_url}}). As occupancy limits permit, walk-ins will be allowed to enter.
 
