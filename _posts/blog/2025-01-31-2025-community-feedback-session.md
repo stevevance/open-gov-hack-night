@@ -15,7 +15,7 @@ author2_url:
 author2_image: 
 author2_bio: 
 published: true
-featured: true
+featured: false
 ---
 
 <p class="text-center"><img src="/images/blog/2025-chn-community-feedback-session.jpg" alt="Miro board from our January 2025 Community Feedback Session" class='img-responsive'/></p>
