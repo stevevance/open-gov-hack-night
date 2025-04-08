@@ -16,7 +16,7 @@ published: true
 featured: true
 ---
 <p class="text-center"><img src="/images/blog/2025-sean-sam-sneha.png" alt="From left to right, Sean Watland - Former Chi Hack Night President Emeritus, Sneha Jaluar and Samantha Goodman - New Chi Hack Night Co-Presidents" class='img-responsive'/>
-<small><em>From left to right, Sean Watland - Outgoing Chi Hack Night President, Sneha Jaluar and Samantha Goodman, Chi Hack Night Co-Presidents</em></small>
+<small><em>From left to right, Sean Watland - Outgoing Chi Hack Night President, Sneha Jalukar and Samantha Goodman, Chi Hack Night Co-Presidents</em></small>
 </p>
 
 After serving as Chi Hack Night's second President, Sean Watland is stepping down after two years. Congratulate Sneha Jalukar & Samanatha Goodman Chi Hack Night's new Co-Presidents! Sean will remain on the Board of Directors for the remainder of his Board seat term. 
