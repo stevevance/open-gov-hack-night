@@ -4,6 +4,7 @@ categories:
   - board
 name_first: "Samantha"
 name_last: "Goodman"
+position: "Co-President"
 seat: "Appointed"
 term_start: "2024"
 term_expires: "2026"

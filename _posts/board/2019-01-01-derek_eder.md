@@ -9,7 +9,7 @@ seat: "Elected"
 term_start: "2019"
 term_expires: "2025"
 committees:
-  - "Event Operations"
+  - "Event Operations (chair)"
   - "Communication & Promotion"
   - "Fundraising"
 date: 2019-01-01

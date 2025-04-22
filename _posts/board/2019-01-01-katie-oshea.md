@@ -4,13 +4,12 @@ categories:
   - board
 name_first: "Katie"
 name_last: "O'Shea"
-position: "Secretary"
 seat: "Elected"
 term_start: "2019"
 term_expires: "2025"
 committees:
   - "Event Operations"
-  - "Communication & Promotion (co-chair)"
+  - "Communication & Promotion (chair)"
 date: 2019-01-01
 image: "/images/people/board/katie.jpg"
 permalink: /board-of-directors/katie-oshea.html
