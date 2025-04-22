@@ -4,6 +4,7 @@ categories:
   - board
 name_first: "Sneha"
 name_last: "Jalukar"
+position: "Co-President"
 seat: "Appointed"
 term_start: "2022"
 term_expires: "2026"

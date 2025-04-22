@@ -4,6 +4,7 @@ categories:
   - board
 name_first: "Kyle"
 name_last: "Dolezal"
+position: "Secretary"
 seat: "Elected"
 term_start: "2024"
 term_expires: "2026"

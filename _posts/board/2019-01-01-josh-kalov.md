@@ -9,7 +9,7 @@ term_start: "2019"
 term_expires: "2025"
 committees:
   - "Event Operations"
-  - "Communication & Promotion (co-chair)"
+  - "Communication & Promotion"
 date: 2019-01-01
 image: "/images/people/board/josh.jpg"
 permalink: /board-of-directors/josh-kalov.html

@@ -6,7 +6,7 @@ name_first: "Eric"
 name_last: "Sherman"
 seat: "Appointed"
 term_start: "2019"
-term_expires: "2025"
+term_expires: "2024"
 committees:
   - "Membership & Volunteers"
   - "Fundraising"
