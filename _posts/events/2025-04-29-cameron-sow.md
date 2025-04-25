@@ -4,10 +4,10 @@ categories:
   - events
 links: 
 title: "Online: Learning and AI Tools"
-description: "Description coming soon"
+description: "In this talk Cameron Sow, Chi Hack Night Board Member, will explore a paper he released this year on what learning is and how it differs from computational “learning”. We will then consider some of the implications these recognitions have for emerging technologies and society. Special attention will be paid to the unique features of the city of Chicago that make it an awesome place to learn about learning."
 speakers:
- - Cameron Sow (he/him)
-image: /images/logo/logo-star-social.jpg
+ - Cameron Sow, Learner | Artist | Philosopher (he/him)
+image: /images/events/633-ai-tools-learning.png
 image_credit:
 date: 2025-04-29T19:00:00-05:00
 event_id: 633
@@ -21,8 +21,6 @@ tags:
 published: true
 ---
 
-Description coming soon
+How does human learning of our everyday experience contrast with the term “learning” as used in conversations about AI tools? People have studied learning for a long time. History and modern science offer a wealth of insight into what learning is, and how it works. In contrast, AI tools and the research upon which their development is based are relatively new technologies with limited domains of applicability.
 
----
-
-**ASL** This event will {% unless page.asl_provided %} not {% endunless %}have an American Sign Language interpreter.
+In this talk Cameron Sow, Chi Hack Night Board Member, will explore a [paper he released this year](https://www.cameronsow.com/prelude-to-bonanza) on what learning is and how it differs from computational “learning”. We will then consider some of the implications these recognitions have for emerging technologies and society. Special attention will be paid to the unique features of the city of Chicago that make it an awesome place to learn about learning.
