@@ -14,7 +14,7 @@ image: /images/events/630-cnp.jpg
 image_credit: 
 date: 2025-04-08T18:00:00-05:00
 event_id: 630
-youtube_id: 
+youtube_id: Qt9qnF7D87g
 agenda: https://docs.google.com/presentation/d/1RKxvkI5eE2mBHpROUIjs83Aeh9-DnUATEUSDPDuCADc/edit#slide=id.g121c7120608_0_0
 sponsor: Chi Hack Night Community
 rsvp_url: https://www.eventbrite.com/e/chi-hack-night-chicago-neighborhoods-project-tickets-1290385420529?aff=oddtdtcreator
