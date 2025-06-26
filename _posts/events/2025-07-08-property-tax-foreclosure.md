@@ -6,8 +6,8 @@ links:
 title: "Online: Property tax foreclosures in Cook County"
 description: "Since 2019, more than 1,000 Cook County homeowners have lost their homes and home equity to investors — called tax buyers — through property tax foreclosure. Collectively, these homeowners owed $2.3 million at the time they fell behind on tax bills but lost $108 million in the estimated market value of their homes when investors foreclosed. A joint investigation by Injustice Watch and the Investigative Project on Race and Equity found these losses of homes and of wealth are disproportionately concentrated in Black community areas. Reporters Emeline Posner and Carlos Ballesteros will discuss their reporting and impact."
 speakers:
-  - Emeline Posner (they/them)
-  - Carlos Ballesteros (he/him)
+  - Emeline Posner, Reporter, Investigative Project on Race and Equity (they/them)
+  - Carlos Ballesteros, Senior Reporter, Injustice Watch (he/him)
 image: /images/events/642-property-tax-foreclosures.jpg
 image_credit:
 date: 2025-07-08T19:00:00-05:00
