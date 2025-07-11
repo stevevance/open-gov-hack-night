@@ -31,6 +31,7 @@ Presentation: **For the Public Good: Technology at Chicago Public Library​**
 Since first opening our doors in 1873, Chicago Public Library has served all Chicagoans with free and open places to gather, learn, connect, read, and be transformed. Our 81 locations provide the innovative library services, technologies and tools Chicagoans need to reach their goals and to establish our city as a competitive force in the global marketplace. In fact, CPL is Chicago's largest provider of free broadband with service connection in every neighborhood.​
 
 By offering internet access via PC and WiFi, mobile hotspot lending, printing, scanning, mobile printing, Microsoft Office, Copilot Chat, and technology assistance, CPL keeps Chicago connected. IT Director Nicole Steeves will share what it takes, discussing the staffing, budgets, and relationships required to provide high-volume public computing. She will also invite participants to consider the future of technology for the public good and how changing public spaces and AI will direct CPL's path.
+
 ---
 
 **This event will be in person, but you can also tune in via livestream. Doors open at 6pm. The livestream and announcements will start around 6:30pm CDT.**
