@@ -12,7 +12,7 @@ image: /images/events/638-cook-county-treasurer.jpg
 image_credit: 
 date: 2025-06-03T18:00:00-05:00
 event_id: 638
-youtube_id: 
+youtube_id: 0AZBCk1qsXQ
 agenda: https://docs.google.com/presentation/d/1RKxvkI5eE2mBHpROUIjs83Aeh9-DnUATEUSDPDuCADc/edit#slide=id.g121c7120608_0_0
 sponsor: Chi Hack Night Community
 rsvp_url: https://www.eventbrite.com/e/chi-hack-night-cook-county-treasurers-office-tickets-1383201004439?aff=oddtdtcreator

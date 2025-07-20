@@ -12,7 +12,7 @@ image: /images/events/642-property-tax-foreclosures.jpg
 image_credit:
 date: 2025-07-08T19:00:00-05:00
 event_id: 642
-youtube_id:
+youtube_id: JPwFUFVZic0
 agenda: https://docs.google.com/document/d/14GtScQm0l6GyqdNht0LpqG8LmcEF7i3COjNJ06PaTj8/edit#
 sponsor: Chi Hack Night Community
 asl_provided: false
