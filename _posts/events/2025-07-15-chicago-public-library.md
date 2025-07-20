@@ -11,7 +11,7 @@ image: /images/events/643-cpl.jpg
 image_credit: 
 date: 2025-07-15T18:00:00-05:00
 event_id: 643
-youtube_id: 
+youtube_id: 2Hkj1GOeCyY
 agenda: https://docs.google.com/presentation/d/1RKxvkI5eE2mBHpROUIjs83Aeh9-DnUATEUSDPDuCADc/edit#slide=id.g121c7120608_0_0
 sponsor: Chi Hack Night Community
 rsvp_url: https://www.eventbrite.com/e/chi-hack-night-chicago-public-library-tickets-1482221346949
