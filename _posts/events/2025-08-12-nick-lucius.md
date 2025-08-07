@@ -4,7 +4,7 @@ categories:
   - events
 links: 
 title: "In-person and Online: City of Chicago’s Department of Technology and Innovation​"
-description: "Coming soon"
+description: "Hear from the Chicago Department of Tech and Innovation leaders on recent progress and projects."
 speakers:
  - Nick Lucius, Commissioner and Chief Information Officer, He/Him
  - Melissa Clark, Head of Planning, She/Her
