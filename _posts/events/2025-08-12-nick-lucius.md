@@ -3,10 +3,11 @@ layout: icstars_event
 categories:
   - events
 links: 
-title: "In-person and Online: Nick Lucius, CTO at the City of Chicago​"
+title: "In-person and Online: City of Chicago’s Department of Technology and Innovation​"
 description: "Coming soon"
 speakers:
- - Nick Lucius, CTO @ City of Chicago
+ - Nick Lucius, Commissioner and Chief Information Officer, He/Him
+ - Melissa Clark, Head of Planning, She/Her
 image: /images/logo/logo-star-social.jpg
 image_credit: 
 date: 2025-08-12T18:00:00-05:00
@@ -26,10 +27,10 @@ published: true
   <p><strong>Chi Hack Night will be at a new location!</strong> <a href='https://www.icstars.org/location/chicago/'>i.c.stars</a>, a non-profit tech training & placement program, will be hosting us at their office at 750 N Orleans Suite 500, Chicago.</p>
 </div>
 
-Presentation: **Nick Lucius, CTO @ City of Chicago**
+Mayor Brandon Johnson’s first budget proposal announced the establishment of the Department of Technology and Innovation, which went live in early 2024. Since that time, the department has implemented an entirely new structure to tech at the city of Chicago. 
+The new department has organized around a bridge from waterfall to agile, with divisions for planning, delivery, support, and security. To ensure a product orientation and platform-based strategy, DTI has added service owners, business relationship managers, and a culture of continuous improvement.
 
-Description: Coming Soon
----
+With DTI, it’s never solely about process or methodology, though. We are driving toward a people-first vision for technology at Chicago. Whether the tool is a web app or AI, we center on better services so that the people of Chicago can get easier access to city services, benefits, and programs.
 
 **This event will be in person, but you can also tune in via livestream. Doors open at 6pm. The livestream and announcements will start around 6:30pm CDT.**
 
