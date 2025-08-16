@@ -66,15 +66,41 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   justify-content: space-between;
 }
 
-.muted { color: #999; }
+.muted { color: #757676; }
 .img-home-teaser { margin-top: 60px;}
 
+/** Create custom white buttons with faint red borders */
 .btn-link {
   color: #E7121C;
+  border: solid 3px #ff00002e;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 6px;
 }
 
-.btn-link:hover {
+.btn-link, .btn-lg {
+  /** Increase link icon visibility and spacing */
+  .fa {
+    margin-right: 5px;
+    font-size: 1.25em;
+    vertical-align: middle;
+  }
+}
+
+.btn-link:hover, .btn-link:focus {
   color: #980c12;
+  border: solid 3px #ff00002e;
+  background-color: #ffeded;
+}
+
+/** Custom styling for homepage event buttons */
+.btn-row {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.btn-row .btn-lg {
+  padding: 10px 25px;
 }
 
 .btn-success {
