@@ -9,8 +9,8 @@ layout: default
         <a href='/events'>Events</a> > <time itemprop="startDate" datetime={{ page.date | date: "%Y-%m-%d" }}>{{ page.date | date: "%B %-d, %Y" }}</time>
       </h3>
       <h1>
-        <small>#{{page.event_id}}</small>
         <span itemprop="name">{{page.title}}</span>
+        <small>#{{page.event_id}}</small>
       </h1>
       <hr />
 
@@ -18,7 +18,7 @@ layout: default
         {% if site.time <= page.date %}
           <div class='col-sm-7'>
         {% else %}
-          <div class='col-sm-12'> 
+          <div class='col-sm-12'>
         {% endif %}
 
           {% if page.youtube_id %}
@@ -96,7 +96,7 @@ layout: default
               Announcements and feature presentation with Q&amp;A<br />
             </p>
             <ul>
-              <li>Join: 
+              <li>Join:
                 {% if page.remote_url %}
                   <a href="{{page.remote_url}}">{{page.remote_url}}</a>
                 {% else %}
@@ -105,14 +105,14 @@ layout: default
               </li>
               <!-- <li>YouTube automatic closed captioning will be available</li> -->
             </ul>
-              
+
             <p>
               <strong>8:00pm - Civic hacking</strong><br />
               3-word intros, community announcements &amp; breakout group pitches<br />
             </p>
             <ul>
               <li>
-                Join: 
+                Join:
                 {% if page.remote_url %}
                   <a href="{{page.remote_url}}">{{page.remote_url}}</a>
                 {% else %}
@@ -149,14 +149,14 @@ layout: default
                 {% endfor %}
                 </p>
               {% endif %}
-            
+
               <strong>Location</strong><br />
               {{ page.date | date: "%l:%M%P" }} {{ page.date | date: "%A, %B %-d, %Y" }}
               <div itemprop="location" itemscope itemtype="http://schema.org/Place">
                 <span itemprop="name">Chi Hack Night Zoom Call</span><br />
                 <!-- <span itemprop="name">Chi Hack Night YouTube Livestream</span><br /> -->
               </div>
-              
+
             </div>
           </div>
         {% endif %}
