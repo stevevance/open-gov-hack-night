@@ -44,7 +44,7 @@ layout: default
         {% if post.layout == "remote_event_openhack" %}
           <a class='btn btn-link btn-lg' href="https://bit.ly/chi-hack-night" target='_blank'><i class='fa fa-play-circle'></i> Chi Hack Night Zoom Call @ 7pm</a>
         {% elsif post.layout == "technexus_event"  %}
-          <a class='btn btn-link btn-lg' href="https://www.google.com/maps/place/TechNexus+Venture+Collaborative/@41.8835673,-87.6394085,17z/data=!3m1!4b1!4m5!3m4!1s0x880e2d5be57f04c5:0xa87e47e177660090!8m2!3d41.8835673!4d-87.6372198" target='_blank'><i class='fa fa-map-marker'></i> TechNexus</a>  
+          <a class='btn btn-link btn-lg' href="https://www.google.com/maps/place/TechNexus+Venture+Collaborative/@41.8835673,-87.6394085,17z/data=!3m1!4b1!4m5!3m4!1s0x880e2d5be57f04c5:0xa87e47e177660090!8m2!3d41.8835673!4d-87.6372198" target='_blank'><i class='fa fa-map-marker'></i> TechNexus</a>
 
           {% if post.remote_url %}
             <a class='btn btn-link' href="{{post.remote_url}}" target='_blank'><i class='fa fa-play-circle'></i> Zoom @ 6:30pm</a>
@@ -69,7 +69,7 @@ layout: default
         {% endif %}
       </div>
     </div>
-      
+
   </div>
 </div>
 {% endfor %}
@@ -105,7 +105,7 @@ layout: default
         {% endif %}
       </div>
     </div>
-      
+
   </div>
 </div>
 {% endfor %}
@@ -113,16 +113,20 @@ layout: default
 {% assign future_events = upcoming_posts | shift %}
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title"><b>Upcoming Events</b> <a class='pull-right' href='/events/'>All events &raquo;</a></h3>
+    <h3 class="panel-title"><b>More Upcoming Events</b> <a class='pull-right' href='/events/'>All events &raquo;</a></h3>
   </div>
   <div class="panel-body">
+    {% if future_events.size > 0 %}
     <small>
       {% for post in future_events %}
-      {{ post.date | date: "%A, %B %-d, %Y" }} {{ post.date | date: "%l:%M%P" }} 
+      {{ post.date | date: "%A, %B %-d, %Y" }} {{ post.date | date: "%l:%M%P" }}
       <a href="{{post.url}}">{{post.title}}</a>
       <br />
       {% endfor %}
     </small>
+    {% else %}
+    <p>We haven't listed more upcoming events yet, check back later!</p>
+    {% endif %}
   </div>
 </div>
 
