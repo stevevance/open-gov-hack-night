@@ -45,6 +45,11 @@ a { text-decoration: none !important; }
   font-size: 1.5em;
 }
 
+/** Fixes default Bootstrap3 small color failing WCAG contrast checks */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  small, .small { color: #757676; }
+}
+
 .no-margin-top {
   margin-top: 0;
 }
