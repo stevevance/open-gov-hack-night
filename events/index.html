@@ -12,7 +12,24 @@ description: Past and upcoming Chi Hack Night presentations and events. We have 
 
 <p>Have a talk you'd like to give at Chi Hack Night? <a href='/speaker-submissions.html'>Learn more about speaker submissions »</a></p>
 
-<table id='hack-night-events' class='table table-striped'>
+{% assign upcoming_events = '' | split: '' %}
+{% assign past_events = '' | split: '' %}
+{% assign current_date = 'now' | date: '%s' %}
+
+{% for post in site.posts %}
+  {% if post.categories contains 'events' or post.categories contains 'satellite' %}
+    {% assign post_date = post.date | date: '%s' %}
+    {% if post_date >= current_date %}
+      {% assign upcoming_events = upcoming_events | push: post %}
+    {% else %}
+      {% assign past_events = past_events | push: post %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<h2>Upcoming Events</h2>
+{% if upcoming_events.size > 0 %}
+<table id='upcoming-events' class='table table-striped'>
   <thead>
     <tr itemscope itemtype='http://schema.org/Event'>
       <th>Date</th>
@@ -24,8 +41,7 @@ description: Past and upcoming Chi Hack Night presentations and events. We have 
     </tr>
   </thead>
   <tbody>
-    {% for post in site.posts %}
-      {% if post.categories contains 'events' or post.categories contains 'satellite' %}
+    {% for post in upcoming_events reversed %}
         <tr>
           <td class='nowrap'>
               <meta itemprop='startDate' datetime='{{ post.date | date: "%Y-%m-%d" }}' content='{{ post.date | date: "%Y-%m-%d" }}' />
@@ -51,7 +67,52 @@ description: Past and upcoming Chi Hack Night presentations and events. We have 
             {% endif %}
           </td>
         </tr>
-      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p>No upcoming events scheduled at this time.</p>
+{% endif %}
+
+<h2>Past Events</h2>
+<table id='past-events' class='table table-striped'>
+  <thead>
+    <tr itemscope itemtype='http://schema.org/Event'>
+      <th>Date</th>
+      <th>#</th>
+      <th>Event</th>
+      <th>Speaker(s)</th>
+      <th>Tags</th>
+      <th>Video</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for post in past_events %}
+        <tr>
+          <td class='nowrap'>
+              <meta itemprop='startDate' datetime='{{ post.date | date: "%Y-%m-%d" }}' content='{{ post.date | date: "%Y-%m-%d" }}' />
+              <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+          </td>
+          <td>{{post.event_id}}</td>
+          <td>
+            <a href='{{ post.url }}' itemprop='url'><span itemprop='name'>{{ post.title }}</span></a>
+          </td>
+          <td>
+            {% for speaker in post.speakers %}
+              {{speaker}}<br />
+            {% endfor %}
+          </td>
+          <td class='nowrap'>
+            {% for tag in post.tags %}
+              {{tag}}<br />
+            {% endfor %}
+          </td>
+          <td class='nowrap'>
+            {% if post.youtube_id %}
+              <a target="_blank" href='https://www.youtube.com/watch?v={{post.youtube_id}}'><i class='fa fa-fw fa-video-camera'></i> Watch</a>
+            {% endif %}
+          </td>
+        </tr>
     {% endfor %}
   </tbody>
 </table>
