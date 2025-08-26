@@ -43,8 +43,7 @@ layout: default
         <br />
 
         <div class="btn-row">
-          <!-- TODO: Remove || true, this is for testing -->
-          {% if post.rsvp_url or true %}
+          {% if post.rsvp_url %}
             <a class='btn btn-lg btn-success' href='{{post.rsvp_url}}'><i class='fa fa-check-square-o'></i> RSVP (required)</a>
           {% endif %}
           <a class='btn btn-link btn-lg' href="{{post.url}}"><i class='fa fa-info-circle-square-o'></i> Details</a>
