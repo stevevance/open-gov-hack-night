@@ -23,43 +23,52 @@ layout: default
 
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title"><b>Next Chi Hack Night</b> <a class='pull-right' href='/events/'>All events &raquo;</a></h3>
+    <h3 class="panel-title">
+      <b class="x-large-text">Next Chi Hack Night</b> <a class='pull-right' href='/events/'>All events &raquo;</a>
+    </h3>
   </div>
   <div class="panel-body">
     <div class='row'>
       <div class='col-sm-7'>
         <strong>{{ post.date | date: "%l:%M%P" }} {{ post.date | date: "%A, %B %-d, %Y" }}</strong>
-        <h2 class='no-margin-top'>
-          <small>#{{post.event_id}}</small>
+        <h2 class='event-title'>
           <a href="{{post.url}}">{{post.title}}</a>
+          <small> #{{post.event_id}}</small>
         </h2>
+
         {% if post.description %}
           <p>{{ post.description }}</p>
         {% endif %}
-        <br />
-        {% if post.rsvp_url %}
-          <a class='btn btn-success' href='{{post.rsvp_url}}'><i class='fa fa-check-square-o'></i> RSVP (required)</a>
-        {% endif %}
-        <a class='btn btn-link btn-lg' href="{{post.url}}"><i class='fa fa-info-circle-square-o'></i> Details</a>
-        {% if post.layout == "remote_event_openhack" %}
-          <a class='btn btn-link btn-lg' href="https://bit.ly/chi-hack-night" target='_blank'><i class='fa fa-play-circle'></i> Chi Hack Night Zoom Call @ 7pm</a>
-        {% elsif post.layout == "technexus_event"  %}
-          <a class='btn btn-link btn-lg' href="https://www.google.com/maps/place/TechNexus+Venture+Collaborative/@41.8835673,-87.6394085,17z/data=!3m1!4b1!4m5!3m4!1s0x880e2d5be57f04c5:0xa87e47e177660090!8m2!3d41.8835673!4d-87.6372198" target='_blank'><i class='fa fa-map-marker'></i> TechNexus</a>  
 
-          {% if post.remote_url %}
-            <a class='btn btn-link' href="{{post.remote_url}}" target='_blank'><i class='fa fa-play-circle'></i> Zoom @ 6:30pm</a>
-          {% else %}
-            <a class='btn btn-link' href="https://youtube.com/chihacknight/live" target='_blank'><i class='fa fa-play-circle'></i> Livestream @ 6:30pm</a>
+        <br />
+
+        <div class="btn-row">
+          <!-- TODO: Remove || true, this is for testing -->
+          {% if post.rsvp_url or true %}
+            <a class='btn btn-lg btn-success' href='{{post.rsvp_url}}'><i class='fa fa-check-square-o'></i> RSVP (required)</a>
           {% endif %}
-        {% else %}
-          {% if post.remote_url %}
-            <a class='btn btn-link' href="{{post.remote_url}}" target='_blank'><i class='fa fa-play-circle'></i> Zoom @ 7pm</a>
+          <a class='btn btn-link btn-lg' href="{{post.url}}"><i class='fa fa-info-circle-square-o'></i> Details</a>
+          {% if post.layout == "remote_event_openhack" %}
+            <a class='btn btn-link btn-lg' href="https://bit.ly/chi-hack-night" target='_blank'><i class='fa fa-play-circle'></i> Chi Hack Night Zoom Call @ 7pm</a>
+          {% elsif post.layout == "technexus_event"  %}
+            <a class='btn btn-link btn-lg' href="https://www.google.com/maps/place/TechNexus+Venture+Collaborative/@41.8835673,-87.6394085,17z/data=!3m1!4b1!4m5!3m4!1s0x880e2d5be57f04c5:0xa87e47e177660090!8m2!3d41.8835673!4d-87.6372198" target='_blank'><i class='fa fa-map-marker'></i> TechNexus</a>
+
+            {% if post.remote_url %}
+              <a class='btn btn-link' href="{{post.remote_url}}" target='_blank'><i class='fa fa-play-circle'></i> Zoom @ 6:30pm</a>
+            {% else %}
+              <a class='btn btn-link' href="https://youtube.com/chihacknight/live" target='_blank'><i class='fa fa-play-circle'></i> Livestream @ 6:30pm</a>
+            {% endif %}
           {% else %}
-            <a class='btn btn-link' href="https://youtube.com/chihacknight/live" target='_blank'><i class='fa fa-play-circle'></i> Livestream @ 7pm</a>
+            {% if post.remote_url %}
+              <a class='btn btn-link' href="{{post.remote_url}}" target='_blank'><i class='fa fa-play-circle'></i> Zoom @ 7pm</a>
+            {% else %}
+              <a class='btn btn-link' href="https://youtube.com/chihacknight/live" target='_blank'><i class='fa fa-play-circle'></i> Livestream @ 7pm</a>
+            {% endif %}
           {% endif %}
-        {% endif %}
-        <a class='btn btn-link btn-lg' href="{{post.agenda}}" target='_blank'>Agenda</a>
+          <a class='btn btn-link btn-lg' href="{{post.agenda}}" target='_blank'>Agenda</a>
+        </div>
       </div>
+
       <div class='col-sm-5'>
         {% if post.image and post.description.size > 0 %}
           <a href="{{post.url}}"><img class='img-responsive img-thumbnail' src='{{post.image}}' alt='{{post.title}}' /></a>
@@ -69,7 +78,7 @@ layout: default
         {% endif %}
       </div>
     </div>
-      
+
   </div>
 </div>
 {% endfor %}
@@ -78,34 +87,43 @@ layout: default
 {% for post in past_events limit: 1 %}
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title"><b>Last Chi Hack Night</b> <a class='pull-right' href='/events/'>All events &raquo;</a></h3>
+    <h3 class="panel-title">
+      <b class="large-text">Last Chi Hack Night</b>
+      <a class='pull-right' href='/events/'>All events &raquo;</a></h3>
   </div>
   <div class="panel-body">
     <div class='row'>
       <div class='col-sm-7'>
         <strong>{{ post.date | date: "%l:%M%P" }} {{ post.date | date: "%A, %B %-d, %Y" }}</strong>
-        <h2 class='no-margin-top'>
-          <small>#{{post.event_id}}</small>
+        <h2 class='event-title'>
           <a href="{{post.url}}">{{post.title}}</a>
+          <small> #{{post.event_id}}</small>
         </h2>
+
         {% if post.description %}
           <p>{{ post.description }}</p>
         {% endif %}
-        <a class='btn btn-link btn-lg' href="{{post.url}}"><i class='fa fa-info-circle-square-o'></i> Details</a>
-        {% if post.youtube_id %}
-        <a class='btn btn-link btn-lg' href="https://www.youtube.com/watch?v={{post.youtube_id}}" target='_blank'><i class='fa fa-play-circle'></i> YouTube Video</a>
-        {% endif %}
+
+        <div class="btn-row">
+          <a class='btn btn-link btn-lg' href="{{post.url}}"><i class='fa fa-info-circle-square-o'></i> Details</a>
+
+          {% if post.youtube_id %}
+            <a class='btn btn-link btn-lg' href="https://www.youtube.com/watch?v={{post.youtube_id}}" target='_blank'><i class='fa fa-play-circle'></i> YouTube Video</a>
+          {% endif %}
+        </div>
       </div>
+
       <div class='col-sm-5'>
         {% if post.image and post.description.size > 0 %}
           <a href="{{post.url}}"><img class='img-responsive img-thumbnail' src='{{post.image}}' alt='{{post.title}}' /></a>
+
           {% if post.image_credit %}
             <br /><small class='pull-right'><em>Photo: {{ post.image_credit }}</em></small>
           {% endif %}
         {% endif %}
       </div>
     </div>
-      
+
   </div>
 </div>
 {% endfor %}
@@ -113,16 +131,20 @@ layout: default
 {% assign future_events = upcoming_posts | shift %}
 <div class="panel panel-default">
   <div class="panel-heading">
-    <h3 class="panel-title"><b>Upcoming Events</b> <a class='pull-right' href='/events/'>All events &raquo;</a></h3>
+    <h3 class="panel-title"><b>More Upcoming Events</b> <a class='pull-right' href='/events/'>All events &raquo;</a></h3>
   </div>
   <div class="panel-body">
+    {% if future_events.size > 0 %}
     <small>
       {% for post in future_events %}
-      {{ post.date | date: "%A, %B %-d, %Y" }} {{ post.date | date: "%l:%M%P" }} 
+      {{ post.date | date: "%A, %B %-d, %Y" }} {{ post.date | date: "%l:%M%P" }}
       <a href="{{post.url}}">{{post.title}}</a>
       <br />
       {% endfor %}
     </small>
+    {% else %}
+    <p>We haven't listed more upcoming events yet, check back later!</p>
+    {% endif %}
   </div>
 </div>
 

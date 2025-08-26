@@ -9,8 +9,8 @@ layout: default
         <a href='/events'>Events</a> > <time itemprop="startDate" datetime={{ page.date | date: "%Y-%m-%d" }}>{{ page.date | date: "%B %-d, %Y" }}</time>
       </h3>
       <h1>
-        <small>#{{page.event_id}}</small>
         <span itemprop="name">{{page.title}}</span>
+        <small>#{{page.event_id}}</small>
       </h1>
       <hr />
 
@@ -39,7 +39,7 @@ layout: default
                 {% endfor %}
                 </p>
               {% endif %}
-            
+
               <strong>Location</strong><br />
               {{ page.date | date: "%l:%M%P" }} {{ page.date | date: "%A, %B %-d, %Y" }}
               <div itemprop="location" itemscope itemtype="http://schema.org/Place">
@@ -61,14 +61,14 @@ layout: default
                 <span itemprop="name">Also on the Chi Hack Night <a href="https://youtube.com/chihacknight/live">YouTube Livestream</a></span><br />
               {% endif %}
               </div>
-              
+
             </div>
           </div>
         {% endif %}
         {% if site.time <= page.date %}
           <div class='col-sm-7 col-sm-pull-5'>
         {% else %}
-          <div class='col-sm-12'> 
+          <div class='col-sm-12'>
         {% endif %}
 
           {% if page.youtube_id %}

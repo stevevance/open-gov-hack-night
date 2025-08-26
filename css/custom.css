@@ -8,12 +8,12 @@ body {
 
 .navbar-brand img { height: 40px; }
 
-.navbar-nav > li > a { 
+.navbar-nav > li > a {
   padding: 10px;
   font-size: 0.9em;
 }
 
-.navbar-nav { 
+.navbar-nav {
   padding-top: 60px;
   margin-right: 0px;
 }
@@ -35,19 +35,72 @@ a { text-decoration: none !important; }
   text-decoration: none;
 }
 
-.no-margin-top{
-  margin-top: 0px;
+/** 25% bigger text helper */
+.large-text {
+  font-size: 1.25em;
 }
 
-.muted { color: #999; }
+/** 50% bigger text helper */
+.x-large-text {
+  font-size: 1.5em;
+}
+
+/** Fixes default Bootstrap3 small color failing WCAG contrast checks */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  small, .small { color: #757676; }
+}
+
+.event-title {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+
+/** Ensure panel titles handle varied text sizes */
+.panel-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.muted { color: #757676; }
 .img-home-teaser { margin-top: 60px;}
 
+/** Create custom white buttons with faint red borders */
 .btn-link {
   color: #E7121C;
+  border: solid 3px #ff00002e;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 6px;
 }
 
-.btn-link:hover {
+.btn-link, .btn-lg {
+  /** Increase link icon visibility and spacing */
+  .fa {
+    margin-right: 5px;
+    font-size: 1.25em;
+    vertical-align: middle;
+  }
+}
+
+.btn-link:hover, .btn-link:focus {
   color: #980c12;
+  border: solid 3px #ff00002e;
+  background-color: #ffeded;
+}
+
+/** Custom styling for homepage event buttons */
+.btn-row {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.btn-row .btn-lg {
+  padding: 10px 25px;
 }
 
 .btn-success {
