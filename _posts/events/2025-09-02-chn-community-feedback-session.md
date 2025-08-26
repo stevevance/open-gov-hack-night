@@ -3,7 +3,7 @@ layout: icstars_event
 categories:
   - events
 links: 
-title: "In-person and Online: TBD​"
+title: "In-person: Community Feedback Session"
 description: "Gather at i.c.stars Chicago for an evening of hacking and community."
 speakers:
   - TBD
@@ -26,7 +26,12 @@ published: true
   <p><strong>Chi Hack Night will be at a new location!</strong> <a href='https://www.icstars.org/location/chicago/'>i.c.stars</a>, a non-profit tech training & placement program, will be hosting us at their office at 750 N Orleans Suite 500, Chicago.</p>
 </div>
 
-Event format/Tech Talk: TBD
+Please join us for a facilitated group discussion to share what’s important to us now, and come up with ideas for taking action.
+
+We will split into groups and discuss prompts.
+
+After about 40 minutes, we’ll come back together and share out our highlights. Community feedback will be summarized and shared out in a future blog post. Join us Tuesday at 6:00 p.m. in person!
+
 
 **This event will be in person, but you can also tune in via livestream. Doors open at 6pm. The livestream and announcements will start around 6:30pm CDT.**
 
