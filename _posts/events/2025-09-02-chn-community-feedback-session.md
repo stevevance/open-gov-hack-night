@@ -3,7 +3,7 @@ layout: icstars_event
 categories:
   - events
 links: 
-title: "In-person: Community Feedback Session"
+title: "In-person and Online: Community Feedback Session"
 description: "Join us for a facilitated group conversation about how we, as both individuals and a community, might navigate the rising authoritarian government in the US. During these times, it's important to stay informed, build community, and make plans. How might we do this better? The facilitated discussion will be structured around 3 prompts."
 speakers:
 image: /images/logo/logo-star-social.jpg
@@ -14,7 +14,7 @@ youtube_id:
 agenda: https://docs.google.com/document/d/1M9IFjFIkz1bUsdrSuwTXDGGZqOI3DdSfe25U1hqCLUE/edit?tab=t.0
 sponsor: Chi Hack Night Community
 rsvp_url: https://www.eventbrite.com/e/chi-hack-night-in-person-at-icstars-tickets-1622504607959
-remote_url: 
+remote_url: https://bit.ly/chi-hack-night
 asl_provided: false
 tags: community
 published: true
@@ -32,6 +32,7 @@ The facilitated discussion will be structured around the following prompts:
 Community feedback will be summarized and shared out in a future blog post. Join us Tuesday at 6:00 p.m. in person!
 
 **In-person:** <a href='https://maps.app.goo.gl/YVGKhYDyqn3dkCit7'>i.c.stars, 750 N Orleans, Suite 500 (5th floor), Chicago IL</a>. 
+This event will be in person, but you can also participate in a feedback session via zoom. Doors open at 6pm. The virtual zoom and in-person announcements will start around 6:30pm CDT.
 
 For more information on our in-person events, please see our [COVID Policy](/blog/2022/09/09/our-covid-19-policy.html). 
 
