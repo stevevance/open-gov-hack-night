@@ -31,8 +31,9 @@ The facilitated discussion will be structured around the following prompts:
 
 Community feedback will be summarized and shared out in a future blog post. Join us Tuesday at 6:00 p.m. in person!
 
+**This event will be in person, but you can also participate in a feedback session via zoom. Doors open at 6pm. The virtual zoom and in-person announcements will start around 6:30pm CDT.**
+
 **In-person:** <a href='https://maps.app.goo.gl/YVGKhYDyqn3dkCit7'>i.c.stars, 750 N Orleans, Suite 500 (5th floor), Chicago IL</a>. 
-This event will be in person, but you can also participate in a feedback session via zoom. Doors open at 6pm. The virtual zoom and in-person announcements will start around 6:30pm CDT.
 
 For more information on our in-person events, please see our [COVID Policy](/blog/2022/09/09/our-covid-19-policy.html). 
 
