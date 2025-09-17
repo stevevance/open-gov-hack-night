@@ -3,7 +3,7 @@ permissions:
   content: write
 on:
   schedule:
-  # 9PM Central on Tuesday = 3 AM UTC on Wednesday
+  # 9pm CST/10pm CDT = 3 AM UTC on Wednesday
     - cron: "0 3 * * 3"
 jobs:
   triggger-build:
