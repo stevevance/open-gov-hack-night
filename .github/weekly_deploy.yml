@@ -1,0 +1,20 @@
+name: Weekly Deploy
+permissions:
+  content: write
+on:
+  schedule:
+  # 9pm CST/10pm CDT = 3 AM UTC on Wednesday
+    - cron: "0 3 * * 3"
+jobs:
+  triggger-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Make empty commit to trigger built
+        run: |
+          git config user.name "chi hack night ci automation"
+          git commit user.email "sneha@chihacknight.org"
+          git commit --allow-empty -m "Chi Hack Night CI Automation: Weekly Trigger Build"
+          git push
