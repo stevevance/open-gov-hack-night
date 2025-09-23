@@ -4,7 +4,7 @@ categories:
   - events
 links: 
 title: "Online: Investigating the Trump administration’s deportations to a maximum security prison in El Salvador"
-description: ""
+description: "A team of ProPublica and Texas Tribune reporters, working in collaboration with Venezuelan journalists, spent several months investigating who the men really were. Contrary to the administration’s claims that the men were “some of the most violent savages on the face of the Earth,” internal records showed that officials knew that the vast majority of the Venezuelan men had never been convicted of crimes in the U.S. By and large, the men had not absconded from immigration authorities; they were in the system, and dozens had open immigration court cases or pending asylum claims at the time they were deported."
 speakers:
   - Melissa Sanchez, ProPublica reporter (she/her)
   - Mica Rosenberg, ProPublica reporter (she/her)
