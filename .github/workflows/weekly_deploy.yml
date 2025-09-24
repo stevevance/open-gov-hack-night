@@ -1,6 +1,6 @@
 name: Weekly Deploy
 permissions:
-  content: write
+  contents: write
 on:
   push:
     branches:
