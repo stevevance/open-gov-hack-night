@@ -2,6 +2,9 @@ name: Weekly Deploy
 permissions:
   content: write
 on:
+  push:
+    branches:
+      - production
   schedule:
   # 9pm CST/10pm CDT = 3 AM UTC on Wednesday
     - cron: "0 3 * * 3"
