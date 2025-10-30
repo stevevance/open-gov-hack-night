@@ -10,7 +10,7 @@ speakers:
  - Tyra Bosnic, Senior Manager of Grants and Public Partnerships at City Bureau, she/her
 image: /images/events/659-cc-cb.jpg
 image_credit:
-date: 2025-11-04T19:00:00-05:00
+date: 2025-11-04T19:00:00-06:00
 event_id: 659
 youtube_id: 
 agenda: https://docs.google.com/document/d/14GtScQm0l6GyqdNht0LpqG8LmcEF7i3COjNJ06PaTj8/edit#
