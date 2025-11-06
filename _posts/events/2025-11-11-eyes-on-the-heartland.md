@@ -4,7 +4,7 @@ categories:
   - events
 links: 
 title: "In-person and Online: Eyes on the heartland"
-description: ""
+description: "A vast network of new license plate cameras has exploded across Illinois in recent years—paid for by state grants to fight retail crime. With the federal government clamoring for more information on people’s movements, how worried should we be about leaving our privacy in the hands of Flock Safety? Unraveled Press journalists Steve Held and Raven Geary will talk through the groundbreaking reporting they have done on the proliferation of license plate reader cameras in Illinois, how the data from them has been mishandled and abused, and the actions state and local government have taken in response to it."
 speakers:
  - Steve Held, Unraveled Press
  - Raven Geary, Unraveled Press
