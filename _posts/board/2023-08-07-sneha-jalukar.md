@@ -19,6 +19,6 @@ published: true
 active: true
 ---
 
-Sneha is a software engineer currently working at a company that builds finance software for local governments and nonprofits. Prior to that, she worked at Techstars, helping early stage startups, and at Red Ventures, where she built financial tools on the websites Bankrate, CreditCards.com and CNET Money. 
+Sneha is a software engineer currently working at a nonprofit in the legal and advocacy space. Prior to that, she worked at DebtBook (a finance startup building software for local governments and nonptofits) Techstars, helping early stage startups, and at Red Ventures, where she built financial tools on the websites Bankrate, CreditCards.com and CNET Money.
 
 Sneha previously directed GrizzHacks - the largest hackathon in the metro Detroit area. She cares deeply about building inclusive tech communities. After graduating from Oakland University in 2021 with a degree in computer science, she moved to Chicago and immediately became involved with Chi Hack Night, finding a valuable outlet to build projects and stay connected with the civic tech community at large. In her spare time, you can find her sipping on tea at a neighborhood Foxtrot or playing one of many musical instruments.
