@@ -13,6 +13,8 @@ layout: default
 
 {% assign next_date = post.date | date: "%A, %B %-d, %Y" %}
 
+{% include weekoff_thanksgiving.html date_off="November 25th" date_back=next_date %}
+
 {% comment %}
 {% include weekoff_4th.html date_off="July 1st" date_back= next_date %}
 {% include weekoff_election.html date_off="Nov 5th" date_back=next_date %}
