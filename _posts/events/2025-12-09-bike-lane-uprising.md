@@ -29,6 +29,10 @@ published: true
   <p><strong>Chi Hack Night will be at <a href='https://www.icstars.org/location/chicago/'>i.c.stars</a></strong>, a non-profit tech training & placement program, will be hosting us at their office at 750 N Orleans Suite 500, Chicago.</p>
 </div>
 
+<div class="alert alert-success">
+  <p><strong>Holiday dessert bake-off!</strong> This will be the holiday edition of Hack Night! Join in the merriment by bringing baked goods for a little dessert potluck. We’ll have a friendly competition so you can vote for your fave!</p>
+</div>
+
 [Bike Lane Uprising](https://bikelaneuprising.com/) has conducted a data-driven audit and risk analysis of over 50,000 Illinois companies registered with the United States Department of Transportation - specifically examining their risk of involvement in crashes and fatalities with bicyclists.
 
 Bike Lane Uprising maintains a mobile app that allows bicyclists to report bikeway infractions. This report out will highlight the correlation they have found between companies who obstruct bike lanes and them being involved in a crash or fatality with a bicyclist.  The goal of this audit is to examine predictive patterns of companies most at risk and identify opportunities to prevent similar tragedies from occurring in the future.
