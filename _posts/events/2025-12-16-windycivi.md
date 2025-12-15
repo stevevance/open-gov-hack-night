@@ -9,7 +9,7 @@ speakers:
  - Sartaj Chowdhury (he/him)
  - Tamara Dowis (she/her)
  - Edwin Chalas Cuevas (he/him)
-image: /images/logo/logo-star-social.jpg
+image: /images/events/664-govbot.png
 image_credit:
 date: 2025-12-16T19:00:00-06:00
 event_id: 664
