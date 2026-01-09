@@ -3,7 +3,7 @@ layout: remote_event
 categories:
   - events
 links: 
-title: "Online: One Year In: What We Know the Trump Administration Means for Public Interest Technology"
+title: "Online: One Year In - What We Know the Trump Administration Means for Public Interest Technology"
 description: "Legislative data is hard to parse, track, and organize—and existing solutions can disappear overnight, like Google’s Civic Information API did in 2024. What would a decentralized, open-source alternative look like?"
 speakers:
 - Reilly Martin, She/Her - Executive Director, Technologists for Public Good 
