@@ -6,7 +6,7 @@ name_first: "Katie"
 name_last: "O'Shea"
 seat: "Elected"
 term_start: "2019"
-term_expires: "2025"
+term_expires: "2027"
 committees:
   - "Event Operations"
   - "Communication & Promotion (chair)"

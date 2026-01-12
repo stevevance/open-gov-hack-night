@@ -7,7 +7,7 @@ name_last: "Eder"
 position: "President Emeritus"
 seat: "Elected"
 term_start: "2019"
-term_expires: "2025"
+term_expires: "2027"
 committees:
   - "Event Operations (chair)"
   - "Communication & Promotion"

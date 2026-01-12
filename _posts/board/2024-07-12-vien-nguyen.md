@@ -6,7 +6,7 @@ name_first: "Vien"
 name_last: "Nguyen"
 seat: "Appointed"
 term_start: "2024"
-term_expires: "2025"
+term_expires: "2027"
 committees: 
   - "Membership & Volunteers"
   - "Communications & Promotions"

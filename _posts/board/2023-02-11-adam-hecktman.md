@@ -6,7 +6,7 @@ name_first: "Adam"
 name_last: "Hecktman"
 seat: "Appointed"
 term_start: "2023"
-term_expires: "2025"
+term_expires: "2027"
 committees:
  - "Event Operations"
  - "Communication & Promotion"
