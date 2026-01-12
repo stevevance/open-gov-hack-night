@@ -4,7 +4,7 @@ categories:
   - events
 links: 
 title: "In-person and Online: Abundant Housing Chicago"
-description: "Coming Soon"
+description: "Join us for a presentation by Steffany Bahamon from Abundant Housing Illinois, a group that advocates for abundant housing and sustainable, inclusive cities throughout Illinois."
 speakers:
 image: /images/logo/logo-star-social.jpg
 image_credit: 
@@ -13,7 +13,7 @@ event_id: 667
 youtube_id:
 agenda: https://docs.google.com/presentation/d/1RKxvkI5eE2mBHpROUIjs83Aeh9-DnUATEUSDPDuCADc/edit#slide=id.g121c7120608_0_0
 sponsor: Chi Hack Night Community
-rsvp_url: 
+rsvp_url: https://www.eventbrite.com/e/chi-hack-night-abundant-housing-illinois-tickets-1980385314787?aff=oddtdtcreator
 remote_url: 
 asl_provided: false
 tags: 'advocacy'
@@ -25,7 +25,7 @@ published: true
   <p><strong>Chi Hack Night will be at <a href='https://www.icstars.org/location/chicago/'>i.c.stars</a></strong>, a non-profit tech training & placement program, will be hosting us at their office at 750 N Orleans Suite 500, Chicago.</p>
 </div>
 
-Description coming soon
+Join us for a presentation by Steffany Bahamon from [Abundant Housing Illinois](https://abundanthousingillinois.org/), a group that advocates for abundant housing and sustainable, inclusive cities throughout Illinois.
 
 **This event will be in person, but you can also tune in via livestream. Doors open at 6pm. The livestream and announcements will start around 6:30pm CDT.**
 
