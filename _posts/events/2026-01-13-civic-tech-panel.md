@@ -4,7 +4,7 @@ categories:
   - events
 links: 
 title: "Online: One Year In - What We Know the Trump Administration Means for Public Interest Technology"
-description: "Legislative data is hard to parse, track, and organize—and existing solutions can disappear overnight, like Google’s Civic Information API did in 2024. What would a decentralized, open-source alternative look like?"
+description: "Join Reilly Martin from Technologists for the Public Good, Kate Green from We The Builders, and Christopher Whitaker from the Alliance of Civic Technology for a panel discussion on what the last year has meant for civic tech."
 speakers:
 - Reilly Martin, She/Her - Executive Director, Technologists for Public Good 
 - Kate Green, She/Her - Executive Director, We the Builders 
